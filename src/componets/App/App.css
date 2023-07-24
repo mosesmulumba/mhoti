@@ -1,13 +1,15 @@
 *{
     box-sizing: border-box;
-    background-color: black;
+    background-color:#343a40!important;
     color: aliceblue;
 }
 .container{
     display: grid;
     grid-gap: 12px;
     grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    border-top: 1px solid #fff;
+    padding-top: 20px;
 }
 .container div img{
     border: 1px solid #fff;
@@ -49,10 +51,11 @@
     outline: none;
   }
   .pagination , .active > a {
-    border-color: #47ccde;
-    color: #fff;
+    border-color: #e2f1f3;
+    color: #080404;
     padding: 5px 10px;
     font-size: 24px;
+    font-weight: bolder;
   }
   .pagination , li {
     padding: 5px 5px;
@@ -65,7 +68,7 @@
   
   .paginator{
     display: flex;
-    padding: 25px;
+    padding: 10px;
     list-style: none;
     outline: none;
     border-radius: 10px;
@@ -73,7 +76,8 @@
     align-items: center;
     justify-items: center;
     flex-direction: center;
-    background-color: #47ccde;
+    margin-left: 30rem;
+    /* background-color: #47ccde; */
   
   }
   .next{
